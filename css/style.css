@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+html {
+  width: 100%;
+  height: 100%;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+html .wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .container {
+  width: 700px;
+  min-height: 466px;
+  display: flex;
+}
+html .container .selected {
+  background-color: #f26129;
+  color: white;
+}
+html .container .tab-list {
+  width: 208px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  border-right: 5px solid #f26129;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #5d5d5d;
+}
+html .container .tab-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+html .container .tab-list ul li {
+  padding: 14px 0 14px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+html .container .tab-content {
+  flex-grow: 1;
+  font-size: 14px;
+}
+html .container .tab-content .tab-content-general {
+  padding-left: 63px;
+}
+html .container .tab-content .tab-content-general h2 {
+  font-size: 20px;
+  color: #353c46;
+  margin: 6px 0 40px 0;
+}
+html .container .tab-content .tab-content-general p {
+  color: #787878;
+  padding-bottom: 10px;
+}
+html .container .tab-content .tab-content-general .code-snippet {
+  margin-left: 18px;
+}
+html .container .tab-content .tab-content-general form {
+  width: 100%;
+  margin-bottom: 70px;
+}
+html .container .tab-content .tab-content-general form .form-title {
+  display: block;
+  padding-bottom: 12px;
+}
+html .container .tab-content .tab-content-general form .text-field {
+  display: block;
+  width: 100%;
+  height: 33px;
+  margin-bottom: 10px;
+  border: 1px solid #efefef;
+  padding: 0 10px;
+}
+html .container .tab-content .tab-content-general form .btn {
+  margin-top: 20px;
+}
+html .container .tab-content .tab-content-integrations {
+  padding-left: 29px;
+}
+html .container .tab-content .tab-content-integrations h2 {
+  font-size: 18px;
+  color: #353c46;
+  margin: 6px 0 23px 0;
+}
+html .container .tab-content .tab-content-integrations p {
+  color: #787878;
+}
+html .container .tab-content .tab-content-advanced {
+  padding-left: 29px;
+}
+html .container .tab-content .tab-content-advanced h2 {
+  font-size: 20px;
+  color: #353c46;
+  margin: 6px 0 46px 0;
+}
+html .container .tab-content .tab-content-advanced h4 {
+  margin-bottom: 0px;
+}
+html .container .tab-content .tab-content-advanced p {
+  color: #787878;
+  line-height: 21px;
+}
+html .container .tab-content .tab-content-advanced form .address-link {
+  max-width: 100%;
+  display: flex;
+}
+html .container .tab-content .tab-content-advanced form .address-link .text-field {
+  flex-grow: 1;
+  height: 33px;
+  border: 1px solid #efefef;
+  border-radius: 0 3px 3px 0;
+  display: inline-block;
+  padding: 0 10px;
+  outline: none;
+}
+html .container .tab-content .tab-content-advanced form .address-link .advanced-link-title {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #eeeeee;
+  color: #787878;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px 0 0 3px;
+}
+html .container .tab-content .tab-content-advanced form .btn {
+  margin-top: 10px;
+}
+/*helpers*/
+* {
+  box-sizing: border-box;
+}
+.bold {
+  font-weight: bold;
+  color: #575757;
+}
+a {
+  color: #f6946e;
+  text-decoration: none;
+}
+.btn {
+  padding: 11px 12px;
+  border-radius: 3px;
+  background-color: #f26129;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
