@@ -1,7 +1,7 @@
 /**
  * Created by AdminNayad on 17/06/2016.
  */
-var app = angular.module('40nuggets', []);
+var app = angular.module('angularApp', []);
 
 app.controller('tabs', function ($scope) {
     $scope.tabs = [{name: 'general'}, {name: 'integrations'}, {name: 'advanced'}];
